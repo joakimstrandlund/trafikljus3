@@ -1,0 +1,63 @@
+body {
+    display:flex;
+    justify-content: center;
+    background-color: grey;
+}
+.container {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.röd {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 10px solid rgb(161, 24, 24);
+    margin: 10px;
+    
+}
+
+.gul {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid rgb(219, 219, 9);
+    margin: 10px;
+
+}
+
+.grön {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 10px solid rgb(5, 98, 5);
+    margin: 10px;
+}
+
+.mini1 {
+    background-color: rgb(253, 107, 107);
+    height: 50%;
+    width: 100%;
+    margin-top: 50%;
+    padding: 0; 
+}
+
+.mini2 {
+    background-color: rgb(244, 242, 146);
+    height: 50%;
+    width: 50%;
+    margin-top: 50%;
+    float: right;
+}
+
+.mini3 {
+    background-color: rgb(59, 237, 127);
+    height: 50%;
+    margin-top: 50%;
+    width: 50%;
+    float: left;
+}
